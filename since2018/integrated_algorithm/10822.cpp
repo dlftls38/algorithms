@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <iostream>
+#include <string.h>
+#include <string>
+#include <algorithm>
+#include <vector>
+#include <stack>
+#include <queue>
+#include <map>
+#include <set>
+#include <limits.h>
+#include <functional>
+#include <math.h>
+#include <fstream>
+using namespace std;
+int main(){
+	char a[101]={0};
+	scanf("%s",a);
+	int i,j;
+	char *ptr=strtok(a,",");
+	int ans=0;
+	while(ptr!=NULL){
+		ans+=atoi(ptr);
+		ptr=strtok(NULL,",");
+	}
+	printf("%d",ans);
+}

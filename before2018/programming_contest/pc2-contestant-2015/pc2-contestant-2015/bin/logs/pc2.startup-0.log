@@ -1,0 +1,92 @@
+151002 191617.116|CONFIG|main|setFileHandlers|Now logging to C:\Users\user\Desktop\pc2-contestant-2015\pc2-contestant-2015\bin\logs directory.
+151002 191617.118|INFO|main|info|
+151002 191617.128|INFO|main|info|Version 9.2.3 20120910 (Monday, September 10th 2012 16:20 UTC) Java ver 1.8.0_40 build 2565 Windows 8.1 6.3 (amd64) 
+151002 191617.129|INFO|main|startLog|Working directory is C:\Users\user\Desktop\pc2-contestant-2015\pc2-contestant-2015\bin
+151002 191617.153|INFO|main|startLog|Process id is 1188@sec
+151002 191617.154|INFO|main|start|Starting ConnectionManager...
+151002 191617.646|INFO|main|start|Started ConnectionManager
+151002 191617.651|INFO|main|setClientServerAndPort|INI File location: file:/C:/Users/user/Desktop/pc2-contestant-2015/pc2-contestant-2015/bin/pc2v9.ini
+151002 191617.651|INFO|main|setClientServerAndPort|setClientServerAndPort 143.248.47.124 parsed as 143.248.47.124 port 50002
+151002 191617.651|INFO|main|info|Contacting server at 143.248.47.124:50002
+151002 191617.652|INFO|main|connectToMyServer|Connecting to 143.248.47.124:50002
+151002 191618.091|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/143.248.47.124,port=50002,localport=4125]-6797355678529957517)
+151002 191618.239|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=/143.248.47.124,port=50002,localport=4125]-6797355678529957517 key is com.sun.crypto.provider.DESKey@fffe7895
+151002 191618.241|INFO|Thread-1|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+151002 191618.242|INFO|Thread-1|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    8b3c3305 4b3e1daf ce28a234 11e4324a 71153d3f 11f1866e bb79e94e c2b46346
+    701f8ca4 5a5d130f 2f137837 348e3144 89c7de6a da701c19 a729b068 642e8a76
+    0ca5a673 ee5b62ba 6ac488f6 d28fbb57 73381f86 96306cea 86cd4dc7 5a6efd3d
+    c16fe254 0abb6b68 54a511c5 d5fd92b7 fbfc36df 433aba52 7a32da4f c0057bd5
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+151002 191618.244|INFO|Thread-1|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@79066c23
+151002 204940.126|INFO|Thread-1|receive|SocketException in receive for Socket[addr=/143.248.47.124,port=50002,localport=4125]-6797355678529957517
+|java.net.SocketException: Connection reset
+|    at java.net.SocketInputStream.read (SocketInputStream.java:209)
+|    at java.net.SocketInputStream.read (SocketInputStream.java:141)
+|    at java.net.SocketInputStream.read (SocketInputStream.java:223)
+|    at java.io.ObjectInputStream$PeekInputStream.peek (ObjectInputStream.java:2296)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peek (ObjectInputStream.java:2589)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peekByte (ObjectInputStream.java:2599)
+|    at java.io.ObjectInputStream.readObject0 (ObjectInputStream.java:1319)
+|    at java.io.ObjectInputStream.readObject (ObjectInputStream.java:371)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:151)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerClientThread.run (ConnectionHandlerClientThread.java:65)
+151002 204940.126|FINER|Thread-1|run|THROW
+|edu.csus.ecs.pc2.core.transport.TransportException: Connection reset
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:155)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerClientThread.run (ConnectionHandlerClientThread.java:65)
+151003 135603.627|CONFIG|main|setFileHandlers|Now logging to C:\Users\user\Desktop\pc2-contestant-2015\pc2-contestant-2015\bin\logs directory.
+151003 135603.630|INFO|main|info|
+151003 135603.637|INFO|main|info|Version 9.2.3 20120910 (Monday, September 10th 2012 16:20 UTC) Java ver 1.8.0_40 build 2565 Windows 8.1 6.3 (amd64) 
+151003 135603.638|INFO|main|startLog|Working directory is C:\Users\user\Desktop\pc2-contestant-2015\pc2-contestant-2015\bin
+151003 135603.659|INFO|main|startLog|Process id is 15228@sec
+151003 135603.660|INFO|main|start|Starting ConnectionManager...
+151003 135604.242|INFO|main|start|Started ConnectionManager
+151003 135604.248|INFO|main|setClientServerAndPort|INI File location: file:/C:/Users/user/Desktop/pc2-contestant-2015/pc2-contestant-2015/bin/pc2v9.ini
+151003 135604.249|INFO|main|setClientServerAndPort|setClientServerAndPort 143.248.47.124 parsed as 143.248.47.124 port 50002
+151003 135604.249|INFO|main|info|Contacting server at 143.248.47.124:50002
+151003 135604.250|INFO|main|connectToMyServer|Connecting to 143.248.47.124:50002
+151003 135604.403|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/143.248.47.124,port=50002,localport=6908]-625375040704794248)
+151003 135604.623|INFO|Thread-1|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=/143.248.47.124,port=50002,localport=6908]-625375040704794248 key is com.sun.crypto.provider.DESKey@1843a
+151003 135604.624|INFO|Thread-1|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+151003 135604.626|INFO|Thread-1|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    ed275e2c 0db977f7 e86527d1 f6473f65 0ed144d4 3aab7d7a 2d482893 ed118d57
+    8d8bd303 49de35cc 8fd5e5fc b8f32e8a 2b0f31e0 1da2a26b 1d984c5f 05bcfb7c
+    928d6f47 a2e6314c a893aeb3 3121cc45 830ea68f 847c5d0c 9ecbb1a0 af8893c7
+    3b42e823 c442b479 a73ffcff e9bbf939 4823c442 77c7ef92 47fe53dc 2db5965b
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+151003 135604.627|INFO|Thread-1|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@7bafaddb
+151003 181506.237|INFO|Thread-1|receive|SocketException in receive for Socket[addr=/143.248.47.124,port=50002,localport=6908]-625375040704794248
+|java.net.SocketException: Connection reset
+|    at java.net.SocketInputStream.read (SocketInputStream.java:209)
+|    at java.net.SocketInputStream.read (SocketInputStream.java:141)
+|    at java.net.SocketInputStream.read (SocketInputStream.java:223)
+|    at java.io.ObjectInputStream$PeekInputStream.peek (ObjectInputStream.java:2296)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peek (ObjectInputStream.java:2589)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peekByte (ObjectInputStream.java:2599)
+|    at java.io.ObjectInputStream.readObject0 (ObjectInputStream.java:1319)
+|    at java.io.ObjectInputStream.readObject (ObjectInputStream.java:371)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:151)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerClientThread.run (ConnectionHandlerClientThread.java:65)
+151003 181506.237|FINER|Thread-1|run|THROW
+|edu.csus.ecs.pc2.core.transport.TransportException: Connection reset
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:155)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerClientThread.run (ConnectionHandlerClientThread.java:65)
