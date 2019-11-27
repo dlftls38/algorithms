@@ -27,22 +27,7 @@ void prime(int num){
     }
 }
 int main(){
-	int m,n;
-	scanf("%d%d",&m,&n);
+	int n;
+	scanf("%d",&n);
 	prime(n);
-	int i,j;
-	int sum=0;
-	int mn=INT_MAX;
-	for(i=m;i<=n;i++){
-		if(isprime[i]==1){
-			sum+=i;
-			mn=min(mn,i);
-		}
-	}
-	if(sum==0){
-		printf("-1");
-	}
-	else{
-		printf("%d\n%d",sum,mn);
-	}
 }

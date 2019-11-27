@@ -21,7 +21,9 @@ int main(){
 			else{
 				dp[i][j]=max(dp[i-1][j],dp[i][j-1]);
 			}
+			printf("%d ",dp[i][j]);
 		}
+		printf("\n");
 	}
 	string answer;
 	while(dp[la][lb]!=0){

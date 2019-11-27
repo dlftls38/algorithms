@@ -25,10 +25,10 @@ int lcm(int a, int b){
     return a * b / gcd(a,b);
 }
 int main(){
+	printf("%d",lcm(2,lcm(3,6)));
 	int n,k;
 	scanf("%d%d",&n,&k);
 	int i,j;
 	for(i=0;i<n;i++){
-		scanf("%d",&a[i]);
 	}
 }
